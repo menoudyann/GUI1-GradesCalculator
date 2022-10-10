@@ -1,3 +1,33 @@
-#nav_bar{
-background-color: white;
+.row {
+  margin-top: 15%;
+  height: 180px;
+}
+#title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+.col-sm-3 {
+  height: 60px;
+  display: flex;
+}
+
+.col-sm-6 {
+  height: 60px;
+  text-align: center;
+}
+
+.btn-right {
+  display: flex;
+  align-items: right;
+}
+
+.btn-add {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
 }
