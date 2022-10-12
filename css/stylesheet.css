@@ -1,26 +1,57 @@
-.row {
-  margin-top: 15%;
-  height: 180px;
+
+
+
+
+#welcome{
+  background-color: #4461FA;
+  height: 250px;
 }
+
+.row {
+  height: 120px;
+}
+
+#title_header {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#semestres{
+  margin-top: 15%;
+}
+
 #title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
-  margin-top: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-sm-3 {
-  height: 60px;
   display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-sm-6 {
-  height: 60px;
   text-align: center;
+  height: 100%;
 }
 
-.btn-right {
-  display: flex;
-  align-items: right;
+#btn_right{
+  align-content: flex-end;
+}
+
+#btn_left{
+
 }
 
 .btn-add {
@@ -30,4 +61,19 @@
   font-size: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #4461FA;
+}
+
+.btn-profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 60px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-style: none;
 }
