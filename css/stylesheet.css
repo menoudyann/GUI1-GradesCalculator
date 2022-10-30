@@ -107,3 +107,46 @@
   background-color: #4461FA;
   border-radius: 25px ;
 }
+
+.best_stats_button{
+  margin-top: 4rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: auto;
+  height: 800px;
+  background-color: #4461FA;
+  border-radius: 25px ;
+}
+
+.worst_stats_button{
+  margin-top: 4rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: auto;
+  height: 800px;
+  background-color: #FF3737;
+  border-radius: 25px ;
+}
+
+.progress{
+  height: 80px;
+  margin-top: 5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
+  color: #4461FA ;
+}
+
+.progress-bar{
+  background-color: #4461FA ;
+}
+
+.subject_button{
+  margin-top: 4rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: auto;
+  height: 200px;
+  background-color: #4461FA;
+  border-radius: 25px ;
+}
