@@ -156,7 +156,6 @@
 }
 
 .subject_button{
-  display: grid;
   margin-top: 4rem;
   margin-left: 5%;
   margin-right: 5%;
@@ -172,4 +171,59 @@
   margin-left: 0px;
   margin-top: 2rem;
   color:white;
+}
+
+.column{
+  width: 50%;
+}
+
+#col-grade{
+  display: flex;
+  
+  justify-content: end;
+}
+
+.grade{
+  background-color: white;
+  height: 140px;
+  width: 140px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group{
+  width: 90%;
+  margin-top: 10%;
+  height: 60px;
+  margin-left: 5%;
+}
+
+.form-control{
+  height: 100px;
+  font-size: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 60px;
+  background-color: #F6F6F6;
+}
+
+.div_add{
+  margin-top: 15%;
+  margin-right: 5%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#btn_add{
+ font-size: 30px;
+ font-family: "Poppins", sans-serif;
+ height: 100px;
+ width: 300px;
+ border-radius: 60px;
+ background-color: #4461FA;
+
 }
